@@ -1,0 +1,642 @@
+*{
+    box-sizing: border-box;
+}
+.path2{
+    height:500px;
+    width: 100%;
+    background-color: #D9EEE1!important;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+   }
+@media(max-width:700px){
+      .path2{
+        display: block;
+        margin-top: 10px;
+        height: 500px;
+      }
+   }
+.sub1{
+      background-color:#D9EEE1 !important;
+      width: 50%;
+      height: 100%;
+      text-align: center;
+     
+   }
+@media(max-width:700px){
+      .sub1{
+         width: 100%;
+         height: 80%;
+      }
+   }
+.sub1 h1{
+      position: relative;
+      top: 15%;
+      font-size: 90px;
+      font-weight: 750;
+      font-family: 'Source Sans Pro', sans-serif;
+      margin-bottom: 2%;
+   }
+@media(max-width:700px)
+   {
+      .sub1 h1{
+         font-size: 50px;
+         font-weight: bold;
+      }}
+   .sub1 h2{
+      font-size: 17px;
+      font-family: 'Source Sans Pro', sans-serif;
+      position: relative;
+      top: 15%;
+      margin-bottom: 7%;
+    
+   } 
+   .sub1 button{
+      display: block;
+      margin: auto;
+      margin-top: 4%;
+      width: 200px;
+      height:40px ;
+      border-radius: 25px;
+      border: none;
+      position: relative;
+      top: 12%;
+      font-size: 17px;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: bold;
+     
+   }
+   #learn{
+      background-color: #04AA6D;
+      color: white;
+   }
+#learn:hover{
+   cursor: pointer;
+   background-color: #0b9462!important;
+}
+#tuto{
+   background-color: rgb(21,32,43)!important;
+   color:white;
+}
+#tuto:hover{
+cursor: pointer;
+background-color:  rgb(21,32,43)!important;}
+
+
+.element1{
+   width: 50%;
+   height: 100%;
+   background-color:#D9EEE1 ;
+   display: block;
+   margin: 0;
+}
+@media(max-width:700px){
+   .element1{
+      width: 100%;
+      height: 120%;
+   }
+}
+@media(max-width:300px){
+   .element1{
+      display: none;
+   }
+}
+.htmleg{
+   width: 75%;
+   height: 75%;
+   background-color:#E7E9EB;
+   position: relative;
+   top: 15%;
+   left: 6%;
+   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+   border-radius: 5px;
+  }
+  @media(max-width:700px){
+   .htmleg{
+        height: 370px;
+        margin-left: 50px;
+   }}
+  .exam{
+   background-color: #E7E9EB;
+   width: 90%;
+   height: 60px;
+   font-size: 20px;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-weight: 400;
+   position: relative;
+   left:5% ;
+   top: 2%;
+  }
+  .doc{
+   background-color : rgb(21,32,43);
+   width: 90%;
+   height: 260px;
+   font-size: 25px;
+   position: relative;
+   left:5%;
+   top: -1%;
+   border-left: rgb(21,32,43) solid 3px;
+  }
+.try{
+    background-color: #04AA6D;
+    position: relative;
+    top: 1%;
+    left: 5%;
+    width: 190px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+/*Css second poart */
+.path3{
+   height:500px;
+   width: 100%;
+   background-color: #FFF4A3!important;
+   margin: 0;
+   box-sizing: border-box;
+   display: flex;
+  }
+@media(max-width:700px){
+     .path3{
+       display: block;
+       margin-top: 500px;
+
+     }
+  }
+.sub2{
+   background-color: #FFF4A3!important;
+     width: 50%;
+     height: 100%;
+     text-align: center;
+    
+  }
+@media(max-width:700px){
+     .sub2{
+        width: 100%;
+        height: 80%;
+     }
+}
+.sub2 h1{
+   position: relative;
+   top: 15%;
+   font-size: 90px;
+   font-weight: 750;
+   font-family: 'Source Sans Pro', sans-serif;
+   margin-bottom: 2%;
+}
+@media(max-width:700px)
+{
+   .sub2 h1{
+      font-size: 50px;
+      font-weight: bold;
+   }}
+.sub2 h2{
+   font-size: 17px;
+   font-family: 'Source Sans Pro', sans-serif;
+   position: relative;
+   top: 15%;
+   margin-bottom: 7%;
+ 
+} 
+.sub2 button{
+   display: block;
+   margin: auto;
+   margin-top: 4%;
+   width: 200px;
+   height:40px ;
+   border-radius: 25px;
+   border: none;
+   position: relative;
+   top: 12%;
+   font-size: 17px;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-weight: bold;
+  
+}
+.element2{
+   width: 50%;
+   height: 100%;
+   background-color: #FFF4A3!important;
+   display: block;
+   margin: 0;
+  }
+  @media(max-width:700px){
+   .element2{
+      width: 100%;
+      height: 120%;
+   }
+  }
+  @media (max-width:300px){
+   .element2{
+      display: none;
+   }
+  }
+  .htmleg1{
+   width: 75%;
+   height: 75%;
+   background-color:#E7E9EB;
+   position: relative;
+   top: 15%;
+   left: 6%;
+   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+   border-radius: 5px;
+  }
+
+@media(max-width:700px){
+ .htmleg1{
+      height: 370px;
+      margin-left: 50px;
+ }}
+
+ #tuto1{
+   background-color: rgb(21,32,43)!important;
+   color:white;
+}
+#tuto1:hover{
+cursor: pointer;
+background-color:  rgb(21,32,43)!important;
+}
+/* Javascript */
+.path4{
+   height:500px;
+   width: 100%;
+   background-color: rgb(21,32,43)!important;
+   margin: 0;
+   box-sizing: border-box;
+   display: flex;
+  }
+@media(max-width:700px){
+     .path4{
+       display: block;
+       margin-top: 500px;
+
+     }
+  }
+.sub3{
+   background-color: rgb(21,32,43)!important;
+     width: 50%;
+     height: 100%;
+     text-align: center;
+     color: white;
+    
+  }
+@media(max-width:700px){
+     .sub3{
+        width: 100%;
+        height: 80%;
+     }
+}
+.sub3 h1{
+   position: relative;
+   top: 15%;
+   font-size: 90px;
+   font-weight: 750;
+   font-family: 'Source Sans Pro', sans-serif;
+   margin-bottom: 2%;
+}
+@media(max-width:700px)
+{
+   .sub3 h1{
+      font-size: 50px;
+      font-weight: bold;
+   }}
+.sub3 h2{
+   font-size: 17px;
+   font-family: 'Source Sans Pro', sans-serif;
+   position: relative;
+   top: 15%;
+   margin-bottom: 7%;
+ 
+} 
+.sub3 button{
+   display: block;
+   margin: auto;
+   margin-top: 4%;
+   width: 200px;
+   height:40px ;
+   border-radius: 25px;
+   border: none;
+   position: relative;
+   top: 12%;
+   font-size: 17px;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-weight: bold;
+  
+}
+.element3{
+   width: 50%;
+   height: 100%;
+   background-color: rgb(21,32,43)!important;
+   display: block;
+   margin: 0;
+  }
+  @media(max-width:700px){
+   .element3{
+      width: 100%;
+      height: 120%;
+   }
+  }
+  @media (max-width:300px){
+   .element3{
+      display: none;
+   }
+  }
+  .htmleg2{
+   width: 75%;
+   height: 75%;
+   background-color:#E7E9EB;
+   position: relative;
+   top: 15%;
+   left: 6%;
+   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+   border-radius: 5px;
+  }
+
+@media(max-width:700px){
+ .htmleg2{
+      height: 370px;
+      margin-left: 50px;
+ }}
+
+ #tuto2{
+   background-color: #E7E9EB!important;
+   color: black;
+}
+#tuto2:hover{
+cursor: pointer;
+background-color:  #E7E9EB!important
+}
+/* pythons */
+.path5{
+   height:500px;
+   width: 100%;
+   background-color: #F3ECEA!important;
+   margin: 0;
+   box-sizing: border-box;
+   display: flex;
+  }
+@media(max-width:700px){
+     .path5{
+       display: block;
+       margin-top: 500px;
+
+     }
+  }
+.sub4{
+   background-color: #F3ECEA!important;
+     width: 50%;
+     height: 100%;
+     text-align: center;
+     color: black;
+    
+  }
+@media(max-width:700px){
+     .sub4{
+        width: 100%;
+        height: 80%;
+     }
+}
+.sub4 h1{
+   position: relative;
+   top: 15%;
+   font-size: 90px;
+   font-weight: 750;
+   font-family: 'Source Sans Pro', sans-serif;
+   margin-bottom: 2%;
+}
+@media(max-width:700px)
+{
+   .sub4 h1{
+      font-size: 50px;
+      font-weight: bold;
+   }}
+.sub4 h2{
+   font-size: 17px;
+   font-family: 'Source Sans Pro', sans-serif;
+   position: relative;
+   top: 15%;
+   margin-bottom: 7%;
+ 
+} 
+.sub4 button{
+   display: block;
+   margin: auto;
+   margin-top: 4%;
+   width: 200px;
+   height:40px ;
+   border-radius: 25px;
+   border: none;
+   position: relative;
+   top: 12%;
+   font-size: 17px;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-weight: bold;
+  
+}
+.element4{
+   width: 50%;
+   height: 100%;
+   background-color: #F3ECEA!important;
+   display: block;
+   margin: 0;
+  }
+  @media(max-width:700px){
+   .element4{
+      width: 100%;
+      height: 120%;
+   }
+  }
+  @media (max-width:300px){
+   .element4{
+      display: none;
+   }
+  }
+  .htmleg3{
+   width: 75%;
+   height: 75%;
+   background-color:#E7E9EB;
+   position: relative;
+   top: 15%;
+   left: 6%;
+   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+   border-radius: 5px;
+  }
+
+@media(max-width:700px){
+ .htmleg3{
+      height: 370px;
+      margin-left: 50px;
+ }}
+
+ #tuto3{
+   background-color: rgb(21,32,43)!important;
+   color: white;
+}
+#tuto3:hover{
+cursor: pointer;
+background-color:  rgb(21,32,43)!important
+}
+/*Sql  */
+.path6{
+   height:500px;
+   width: 100%;
+   background-color: #96D4D4!important;
+   margin: 0;
+   box-sizing: border-box;
+   display: flex;
+  }
+@media(max-width:700px){
+     .path6{
+       display: block;
+       margin-top: 500px;
+
+     }
+  }
+.sub5{
+   background-color: #96D4D4!important;
+     width: 50%;
+     height: 100%;
+     text-align: center;
+     color: black;
+    
+  }
+@media(max-width:700px){
+     .sub5{
+        width: 100%;
+        height: 80%;
+     }
+}
+.sub5 h1{
+   position: relative;
+   top: 15%;
+   font-size: 90px;
+   font-weight: 750;
+   font-family: 'Source Sans Pro', sans-serif;
+   margin-bottom: 2%;
+}
+@media(max-width:700px)
+{
+   .sub5 h1{
+      font-size: 50px;
+      font-weight: bold;
+   }}
+.sub5 h2{
+   font-size: 17px;
+   font-family: 'Source Sans Pro', sans-serif;
+   position: relative;
+   top: 15%;
+   margin-bottom: 7%;
+ 
+} 
+.sub5 button{
+   display: block;
+   margin: auto;
+   margin-top: 4%;
+   width: 200px;
+   height:40px ;
+   border-radius: 25px;
+   border: none;
+   position: relative;
+   top: 12%;
+   font-size: 17px;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-weight: bold;
+  
+}
+.element5{
+   width: 50%;
+   height: 100%;
+   background-color: #96D4D4!important;
+   display: block;
+   margin: 0;
+  }
+  @media(max-width:700px){
+   .element5{
+      width: 100%;
+      height: 120%;
+   }
+  }
+  @media (max-width:300px){
+   .element5{
+      display: none;
+   }
+  }
+  .htmleg4{
+   width: 75%;
+   height: 75%;
+   background-color:#E7E9EB;
+   position: relative;
+   top: 15%;
+   left: 6%;
+   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+   border-radius: 5px;
+  }
+
+@media(max-width:700px){
+ .htmleg4{
+      height: 370px;
+      margin-left: 50px;
+ }}
+
+ #tuto4{
+   background-color: rgb(21,32,43)!important;
+   color: white;
+}
+#tuto4:hover{
+cursor: pointer;
+background-color:  rgb(21,32,43)!important
+}
+/*                               */
+.headtable{
+   display: flex;
+   text-align: center;
+}
+.headtable1{
+  
+   text-align: center;
+   margin-left: 70px;
+}
+@media(max-width:700px){
+   .headtable1{
+      margin-left: -5px;
+   }
+}
+.table{
+   border: 1px solid black;
+   width: 80px;
+   height: 25px;
+}
+.headtitle{
+   text-align: center;
+   font-size: 50px;;
+   font-weight: 600;
+   background-color: #04AA6D;
+
+}
+.headtitlesmall{
+   text-align: center;
+   font-size: 30px;
+   font-weight: 600;
+   background-color: #04AA6D;
+   width: 70%;;
+}
+.homefirst{
+   width: 70%;
+}
+.homeside{
+   width: 100%;
+}
+.homesecond{
+   width: 30%;
+   position:fixed;
+   right: 0;
+   top: 0;
+}
+.toptable{
+   
+   text-align: center;
+}

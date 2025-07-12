@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.first{
+  text-Align:center;
+  background-Color:#BC8F8F;;
+  border:10px solid white;
+  
+}
+.second{
+  background-Color:#BC8F8F;;
+  width: 60%;
+  height:80%;
+  margin-left: 20% ;
+  border:5px solid white;
+}
+
+
+ .style{
+  text-align: center;
+  width: 100%;
+  justify-content: space-around; 
+ border: 1px  solid black;
+  color: black;
+  background-color: #F4A460;
+  margin: 1px ;
+
+ }
+ .style1{
+  text-align: center;
+  width: 100%;
+   justify-content: space-around; 
+  border: 1px solid black;
+  background-color: #F4A460;
+  margin: 2px ;
+ }
+ /* button styles */
+ .edit{
+  height:18px;
+  width: 45px;
+  color: black;
+  background-color: white;
+  border-radius: 3px;
+ 
+ }
+ .edit:hover{
+  color: white;
+  background-color: green;
+  height: 25px;
+  width: 70px;
+ }
+ .delete{
+  height:18px;
+  width: 55px;
+  color: black;
+  background-color: white;
+  border-radius: 3px;
+  
+
+ }
+ .delete:hover{
+  color: white;
+  background-color: red;
+  height: 25px;
+  width: 70px;
+
+ }
+ .submit{
+  background-color: white;
+  color: black;
+  width: 60px;
+  border-radius: 5px;
+
+ }
+ .submit:hover{
+  background-color:black;
+  color:white;
+ }
+ .aa{
+  display: hidden;
+ }

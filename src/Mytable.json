@@ -1,0 +1,22 @@
+{
+    "information": [
+        {
+            "id": 1,
+            "name": "a",
+            "area": "g",
+            "gender": "h"
+        },
+        {
+            "id": 2,
+            "name": "a",
+            "area": "k",
+            "gender": "h"
+        },
+        {
+            "id": 3,
+            "name": "i",
+            "area": "g",
+            "gender": "h"
+        }
+    ]
+}

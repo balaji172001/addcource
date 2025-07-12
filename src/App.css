@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.myCell{
+  border : 1px solid black;
+  width: 110px;
+}
